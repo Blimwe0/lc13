@@ -64,13 +64,15 @@
 
 /obj/item/ego_weapon/city/dawn/attack(mob/living/target, mob/living/user)
 	//Happens before the attack so you need to do another attack.
+	var/userjust = (get_modified_attribute_level(user, JUSTICE_ATTRIBUTE))
+	var/justicemod = 1 + userjust/100
 	if(ishuman(target))
 		var/mob/living/carbon/human/H = target
 		if(H.sanity_lost)
 			H.death()
 	..()
 	if(activated == TRUE)
-		target.deal_damage(force, WHITE_DAMAGE, flags = (DAMAGE_FORCED))
+		target.deal_damage(force * justicemod, WHITE_DAMAGE, flags = (DAMAGE_FORCED))
 		DawnAttack(target, user)
 	else
 		target.deal_damage(force*0.5, WHITE_DAMAGE, flags = (DAMAGE_FORCED))

@@ -95,8 +95,7 @@
 /area/city/fixers)
 "F" = (
 /obj/structure/closet,
-/obj/item/ego_weapon/city/streetlight_bat,
-/obj/item/clothing/suit/armor/ego_gear/city/zweijunior,
+/obj/item/loadout_beacon/streetlight,
 /turf/open/floor/facility,
 /area/city/fixers)
 "I" = (
@@ -131,25 +130,12 @@
 /obj/item/food/candy,
 /turf/open/floor/facility/dark,
 /area/city/fixers)
-"W" = (
-/obj/structure/closet,
-/obj/item/ego_weapon/city/zweihander/streetlight_baton,
-/obj/item/clothing/suit/armor/ego_gear/city/zweijunior,
-/obj/item/clothing/head/beret/sec/zwei,
-/turf/open/floor/facility,
-/area/city/fixers)
 "Y" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /obj/item/food/pizzaslice/moldy,
 /obj/item/food/burrito,
 /obj/item/food/cake/black_forest,
 /turf/open/floor/facility/dark,
-/area/city/fixers)
-"Z" = (
-/obj/structure/closet,
-/obj/item/ego_weapon/city/streetlight_greatsword,
-/obj/item/clothing/suit/armor/ego_gear/city/zweijunior,
-/turf/open/floor/facility,
 /area/city/fixers)
 
 (1,1,1) = {"
@@ -159,7 +145,7 @@ K
 K
 K
 z
-W
+F
 "}
 (2,1,1) = {"
 a
@@ -177,7 +163,7 @@ x
 t
 K
 l
-Z
+F
 "}
 (4,1,1) = {"
 Q

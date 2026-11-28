@@ -35,5 +35,5 @@
 /datum/loadout/streetlight/zwei
 	name = "Streetlight Zwei associate"
 	armor = /obj/item/clothing/suit/armor/ego_gear/city/san
-	weapon = /obj/item/ego_weapon/city/zweihander/streetlight_baton
+	weapon = /obj/item/ego_weapon/city/streetlight_baton
 
